@@ -35,3 +35,16 @@ The following are the major components and technical aspects put into use in thi
 
 - Take one of the LoRa Transreciever module and connect it to the same NodeMCU to which the moisture and temperature sensor are connected.
 
+![image](https://user-images.githubusercontent.com/69643168/131066309-21d04918-4e88-4ff3-8b86-6f49ffee760e.png)
+
+- The above setup creates our Transmitter, now upload the Transmitter code into the NodeMCU.
+
+- Using the same way of connecting LoRa Module to NodeMCU, connect the other LoRa module to the other NodeMCU.
+
+- Upload the reciver code into this second NodeMCU, remember the reciver code should also contain the code to upload the received data into IO.adafruit cloud.
+
+- Now in the Selenium Integrated Python code, you should be adding your username and password of the adafruit.io account for it to work correctly.
+
+- Place the Moisture and Temperature Sensors into soil, and run the program on both the NodeMCU's, you will be able to get the soil temperature and moisture values in the recieving NodeMCU. 
+
+- Run the Selenium integrated Python code, it would automatically download the data from the adafruit.io cloud, interprete the data, and present the results. 
