@@ -29,4 +29,9 @@ The following are the major components and technical aspects put into use in thi
 - Connect the Soil Moisture Sensor to the one of the NodeMCU in the following way
 ![image](https://user-images.githubusercontent.com/69643168/125249502-ee306e80-e312-11eb-8037-a09ad04bf99a.png)
 
-- Connect the Soil Temperature Sensor to the same NodeMCU to which the moisture sensor is connected
+- Connect the Soil Temperature Sensor to the same NodeMCU to which the moisture sensor is connected, the following diagram assists you to do that
+
+![image](https://user-images.githubusercontent.com/69643168/131065990-b982cdbe-7c41-471b-90c5-9b37cae85639.png)
+
+- Take one of the LoRa Transreciever module and connect it to the same NodeMCU to which the moisture and temperature sensor are connected.
+
