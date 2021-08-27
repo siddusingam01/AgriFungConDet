@@ -45,6 +45,8 @@ The following are the major components and technical aspects put into use in thi
 
 - Now in the Selenium Integrated Python code, you should be adding your username and password of the adafruit.io account for it to work correctly.
 
+- The Selenium Integrated Python code and the WebDriver should be in the same directory for it to work correctly. 
+
 - Place the Moisture and Temperature Sensors into soil, and run the program on both the NodeMCU's, you will be able to get the soil temperature and moisture values in the recieving NodeMCU. 
 
 - Run the Selenium integrated Python code, it would automatically download the data from the adafruit.io cloud, interprete the data, and present the results. 
